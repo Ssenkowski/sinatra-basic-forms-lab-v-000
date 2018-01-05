@@ -9,12 +9,12 @@ class App < Sinatra::Base
 
   get '/create_puppy' do
 
-    erb :index
+    erb :create_puppy
   end
 
   get '/' do
 
     erb :index
   end
-  
+
 end
